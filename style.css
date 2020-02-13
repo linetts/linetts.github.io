@@ -1,0 +1,389 @@
+ * {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 2px;
+  text-align: center;
+}
+
+h4 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    /*line-height: 2px;*/
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 2px;
+    margin-bottom: 15px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+li a:link {
+  color: gray;
+}
+
+li a:hover {
+  text-decoration:underline;
+}
+
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+
+.row {
+  margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+  padding: 14px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: none;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 0px;
+  padding-right: 0px;
+  border: solid transparent 3px;
+}
+
+.content2 {
+  background-color: none;
+  padding-top: 13px;
+  padding-bottom: 6px;
+  padding-left: 0px;
+  padding-right: 0px;
+  border: solid transparent 0px;
+}
+
+.content3 {
+  background-color: none;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid transparent 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 40%;
+}
+
+.content3b {
+  background-color: none;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid transparent 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 60%;
+}
+
+.content4 {
+  background-color: none;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  border: solid transparent 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.rundt {
+  background-color: none;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  border: solid transparent 0px;
+}
+
+.content5 {
+  background-color: none;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid transparent 0px;
+  width: 50%;
+}
+
+.content6 {
+  background-color: none;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid transparent 0px;
+  width: 70%;
+}
+
+.content:hover {
+  text-decoration: none;
+  color: black;
+  border: solid black 3px;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 700px) and (min-width: 461px) {
+    .column {
+      width: 50%;
+    }
+    h3 {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 2px;
+        text-align: center;
+    }
+  
+    .content3 {
+      width: 70%;
+    }
+
+    .content3b {
+      width: 100%;
+    }
+
+    .content5 {
+      width: 70%;
+    }
+
+    .content6 {
+      width: 100%;
+    }
+  }
+
+@media screen and (max-width: 1100px) and (min-width: 901px) {
+    .column {
+      width: 25%;
+    }
+    h3 {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 2px;
+        text-align: center;
+    }
+  }
+
+@media screen and (max-width: 460px) {
+  .column {
+    width: 100%;
+  }
+  h5 {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+
+  .content3 {
+    width: 100%;
+  }
+
+  .content3b {
+    width: 100%;
+  }
+
+  .content5 {
+    width: 100%;
+  }
+  .content6 {
+    width: 100%;
+  }
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+  }
+
+.innhold {
+background-color: white;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 500px;
+  margin: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.mobil {
+  height: 500px;
+  width: 240px;
+  position: relative;
+}
+
+.case {
+  position: absolute;
+  background: transparent;
+  width: 240px;
+  height: 495px;
+  border: 11px solid black;
+  box-sizing: border-box;
+  border-radius: 35px;
+  left: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.top {
+  position: absolute;
+  background: transparent;
+  height: 15px;
+  width: 218px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.notch {
+  background: black;
+  height: 15px;
+  width: 115px;
+  position: absolute;
+  left: 51.5px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.hoytaler {
+  background: rgb(51, 51, 51);
+  width: 30px;
+  height: 6px;
+  border-radius: 8px;
+  position: absolute;
+  left: 43px;
+}
+
+.kamera {
+  background: rgb(51, 51, 51);
+  width: 7px;
+  height: 7px;
+  border-radius: 8px;
+  position: absolute;
+  left: 80px;
+}
+
+.paa {
+  width: 3px;
+  height: 19px;
+  background: rgb(124, 124, 124);
+  position: absolute;
+  left: 0;
+  top: 62px;
+}
+.volum {
+  width: 3px;
+  height: 32px;
+  background: rgb(124, 124, 124);
+  position: absolute;
+  left: 0px;
+  top: 98px;
+}
+.volum_ned {
+  top: 142px;
+}
+
+.knapp {
+  width: 3px;
+  height: 32px;
+  background: rgb(124, 124, 124);
+  position: absolute;
+  left: 243px;
+  top: 98px;
+}
+
+.video_innhold {
+    padding-left: 13px;
+    padding-top: 10px;
+    overflow: hidden;
+}
+.video_innhold video {
+    min-width: 96.5%;
+    min-height: 100%;
+}
+
+.f {
+  position: fixed;
+}
