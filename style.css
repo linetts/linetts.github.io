@@ -55,6 +55,7 @@ p {
   font-size: 15px;
   line-height: 25px;
   font-weight: 300;
+  text-align: auto;
 }
 
 a:link {
