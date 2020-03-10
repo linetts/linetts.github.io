@@ -212,6 +212,13 @@ a:visited {
         text-align: center;
     }
   
+  h4 {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 2px;
+        text-align: center;
+    }
+  
     .content3 {
       width: 70%;
     }
@@ -235,6 +242,13 @@ a:visited {
     }
     h3 {
         font-size: 16px;
+        font-weight: 300;
+        line-height: 2px;
+        text-align: center;
+    }
+  
+    h4 {
+        font-size: 14px;
         font-weight: 300;
         line-height: 2px;
         text-align: center;
