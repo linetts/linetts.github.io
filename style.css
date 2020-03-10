@@ -201,19 +201,12 @@ a:visited {
   }
 }
 
-@media screen and (max-width: 700px) and (min-width: 461px) {
+@media screen and (max-width: 700px) and (min-width: 504px) {
     .column {
       width: 50%;
     }
     h3 {
         font-size: 16px;
-        font-weight: 300;
-        line-height: 2px;
-        text-align: center;
-    }
-  
-  h4 {
-        font-size: 14px;
         font-weight: 300;
         line-height: 2px;
         text-align: center;
@@ -246,16 +239,9 @@ a:visited {
         line-height: 2px;
         text-align: center;
     }
-  
-    h4 {
-        font-size: 14px;
-        font-weight: 300;
-        line-height: 2px;
-        text-align: center;
-    }
   }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 503px) {
   .column {
     width: 100%;
   }
